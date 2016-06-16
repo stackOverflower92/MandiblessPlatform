@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="scifi_platformTiles_32x32" tilewidth="32" tileheight="32" tilecount="805">
+  <image source="../../../../Documents/My Documents/Work/Development/Game Development/Assets and Stuff/Tiles Assets/scifi_platformTiles_32x32.png" width="1120" height="736"/>
+  <tile id="0">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="CollisionLayer" width="70" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3GsQ3AIBAEsIN9IauQTMyXpGADF5bckjQAAAC4GD2Z5el+fpW3fP77BgkjYGRoEAAA
+  </data>
+ </layer>
+ <layer name="BackgroundLayer" width="70" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VMRLBQBRA/xaoUOAkuAppcQpcJ1wDFQpyB1QocAKvzGYis5okk/1/5k3eTF6R2dnMD0VkBWsIc/LkM+1dnt+T5nd4wDPhL3jDJ6Opct80Ii1oG9s70IWe+d1UuT9xNmeIYA8HOGa4L33Z73NRfdnvc1H9hLOZwkzU476BLezULb/AFW7qltf4l+rQMOpxd9ltfboBDD3qXXbbiG4MgUe9y26bwwKWHvU6Ov/MF4QON7NoEAAA
+  </data>
+ </layer>
+ <layer name="SpawnLayer" width="70" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQlPoAAAAAA+BjO3YgZoEAAA
+  </data>
+ </layer>
+</map>

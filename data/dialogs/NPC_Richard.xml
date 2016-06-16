@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialogs>
+	<Dialog id="1">
+		<Node id="2" speaker="Player" next="3" first="true">
+			<Text>Ciao Richard, come stai?</Text>
+			<Answers></Answers>
+		</Node>
+		
+		<Node id="3" speaker="NPC_Richard" next="-1">
+			<Text>Ciao Player, abbastanza bene dai. Tu?</Text>
+			<Answers>
+				<DialogAnswer id="6" next="4">
+					Abbastanza bene!
+				</DialogAnswer>
+				
+				<DialogAnswer id="7" next="5">
+					Insomma...
+				</DialogAnswer>
+			</Answers>
+		</Node>
+		
+		<Node id="4" speaker="NPC_Richard" next="-2">
+			<Text>Ottimo! Ci si vede vecchio!</Text>
+			<Answers></Answers>
+		</Node>
+		
+		<Node id="5" speaker="NPC_Richard" next="6">
+			<Text>Caspita mi spiace! Vuoi discuterne davanti a una birra?</Text>
+			<Answers></Answers>
+		</Node>
+		
+		<Node id="6" speaker="Player" next="7">
+			<Text>Si, insomma... va bene, grazie...</Text>
+			<Answers></Answers>
+		</Node>
+		
+		<Node id="7" speaker="NPC_Richard" next="8">
+			<Text>C'è qualcosa che non va in quello che ho detto? Perchè se preferisci stare da solo non c'è problema...</Text>
+			<Answers></Answers>
+		</Node>
+		
+		<Node id="8" speaker="Player" next="9">
+			<Text>No davvero, apprezzo moltissimo, solo che in questo periodo mi sento solo, e molto strano...</Text>
+			<Answers></Answers>
+		</Node>
+		
+		<Node id="9" speaker="NPC_Richard" next="-1">
+			<Text>Lo so, lo so... però se ti va c'è una birra fresca che ci aspetta. Vedrai che starai meglio! Che ne dici?</Text>
+			<Answers>
+				<DialogAnswer id="6" next="10">
+					Si! Andiamo!
+				</DialogAnswer>
+				
+				<DialogAnswer id="7" next="11">
+					Mi sa che passo sta volta, non sono dell'umore adatto...
+				</DialogAnswer>
+			</Answers>
+		</Node>
+		
+		<Node id="10" speaker="NPC_Richard" next="-2">
+			<Text>Grande! Andiamo!</Text>
+			<Answers></Answers>
+		</Node>
+		
+		<Node id="11" speaker="NPC_Richard" next="-2">
+			<Text>Non c'è problema, appena te la senti dimmi qualcosa! Sai dove trovarmi!</Text>
+			<Answers></Answers>
+		</Node>
+	</Dialog>
+</Dialogs>

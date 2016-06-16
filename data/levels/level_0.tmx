@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="32" tileheight="32" nextobjectid="20">
+ <properties>
+  <property name="background" value="scifi_platform_BG1.jpg"/>
+ </properties>
+ <tileset firstgid="1" name="grassy_tileset" tilewidth="32" tileheight="32" tilecount="800">
+  <image source="../img/tilesets/grassy_tileset.png" width="640" height="1280"/>
+  <tile id="0">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="801" name="scifi_platformTiles_32x32" tilewidth="32" tileheight="32" tilecount="805">
+  <image source="../../../../Documents/My Documents/Work/Development/Game Development/Assets and Stuff/Tiles Assets/scifi_platformTiles_32x32.png" width="1120" height="736"/>
+  <tile id="210">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="212">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="213">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="214">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="215">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="216">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="252">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="280">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="281">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="282">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="283">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="284">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="285">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="286">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="287">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="288">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="299">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="315">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="316">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="317">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="318">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="319">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="320">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="321">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="322">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="323">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="334">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="350">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="351">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="352">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="353">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="354">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="355">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="356">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="357">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="358">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="385">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="386">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="387">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="388">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="389">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="390">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="391">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="392">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="393">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="420">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="421">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="422">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="423">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="424">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="425">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="426">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+  <tile id="427">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+  <tile id="428">
+   <properties>
+    <property name="tileType" value="ladder"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1606" name="_454-" tilewidth="32" tileheight="32" tilecount="420">
+  <image source="../../../../Documents/My Documents/Work/Development/Game Development/Assets and Stuff/Tiles Assets/_454-.jpg" width="640" height="683"/>
+ </tileset>
+ <tileset firstgid="2026" name="door" tilewidth="32" tileheight="32" tilecount="1">
+  <image source="../../../../Documents/My Documents/Work/Development/Game Development/Assets and Stuff/Tiles Assets/door.jpg" width="32" height="32"/>
+ </tileset>
+ <layer name="CollisionLayer" width="50" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2TSVICMRSG2zJpHPYOgLh1uILgcAb1KupK1FuoK1FvgTMqt1AG9QaOC78um6pIQSdphsqCxVf95++XdF69v4vS8y7gEoqO6e8Qk9oneIaKgzrj/zHkRRP0MUydAOm7p1dDdH0EPb/DB3w6qE3nEfSchBSkHdQ288hSl4Nl3z3d+M9N+vgKa3/gFu6gBFdwDTc98nV3syHoYybM4Cy8sH6FN6hCDeqyN363+1gJM7gGozAG4+BDAkZ65He7DzVXE8LzJmEKpiEJKUhH+FF74r5r3G+LO23DjtRrNVe7nJGHPdiHA/Hfa/W+nR/Xyyt9HHK/IziWeq3mSvedJchCLnynq+m0j3XutwGbUq/VXJ1wRgFO4QzORWuv+Wm6z8QrdCFXJc64hwd4hLJo7TU/TfeZenFypc6jyhk1qENF9GcdVWeTK3UePusESOmGtsmV+p/Ps16ARZiT/VmrfrOOmysXtE2W2uXKBW2TpXa5ckHbZGmQq0GudDojOstV3Dm6puPO0TX9C7F79MiIEwAA
+  </data>
+ </layer>
+ <layer name="InteractionLayer" width="50" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PwRFAMBSE4Wcm6YseSAP0gAbogTRALfRkbxyc5BDvzX4ze99fhIiIviheppH2/09WOkonUrncL9K1aOgMdExomA10bGjYDXQcaDgNdBAR/VXtRRos+NxP0vT4P2Cj8o4F/1csKu+g2wUYuHULiBMAAA==
+  </data>
+ </layer>
+ <objectgroup name="MainSpawnPositions" width="0" height="0">
+  <object id="8" name="Jasper" x="192" y="416" width="32" height="32"/>
+  <object id="9" name="Rick" x="672" y="416" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Doors" width="0" height="0">
+  <object id="19" name="level_1" x="1088" y="384" width="32" height="64"/>
+ </objectgroup>
+</map>
